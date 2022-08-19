@@ -1,0 +1,16 @@
+
+Steps :
+
+-> write a python code of square of user entered number
+
+-> create a docker file and attach the python code file with the help of copy command
+
+-> and after that in terminal build the docker image and run the docker image using commands below :
+
+        $ sudo docker build -t square .                 --- to build the docker image
+
+        $ sudo docker images                            --- to check the image is there in docker or not
+
+        $ sudo docker run -it square                    --- to run the image to check wherether the program is running or not
+
+
