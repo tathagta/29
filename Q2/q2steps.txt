@@ -1,0 +1,68 @@
+Q2. Answer
+
+Go to AWS site :
+
+Login account -->
+
+then, go to Mumbai server,
+then, go to EC2 virtual server in the cloud,
+then, go to instances launch a new instance,
+then, go through it and more steps are ATTACHED IN SCREENSHOTS
+
+Instance launched then, go to instances
+click on launched instance and select it then go to security,
+then, add inbound and outbound rules,
+after adding it,
+
+then, go to CONNECT then click on SSH Client then Run the given commands on your SYSTEM
+
+chmod 400 220340126029.pem
+
+ssh -i 220340126029.pem ubuntu@ec2-13-233-255-41.ap-south-1.compute.amazonaws.com
+
+IT WILL give you a ubuntu virtual machine over cloud service using AWS
+
+public IPv4 address : 13.233.255.41
+
+
+
+Steps :
+
+-> log in aws console log in
+
+-> after that create a ec2 instance
+
+-> when creating an ec2 instance select ubuntu-20.04 AMI
+
+-> then create instance
+
+-> after creating the instance join inbound rules in security and make sure port number 22 and 1883 are only open ports
+
+-> and in instance click to connect and run the commands in your terminal
+
+-> after that update and upgrade the ubuntu terminal
+
+-> install the mosquitto in the terminal
+
+-> and run the mosquitto pub and sub on terminal
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
