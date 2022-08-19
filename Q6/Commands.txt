@@ -1,0 +1,114 @@
+
+https://github.com/tathagta/29.git
+
+
+**************************************************************************************************************
+---------------------------------------------------GITHUB-----------------------------------------------------
+***************************************************************************************************************
+
+-- github init
+
+	$ git init .
+
+-- github status check
+	
+	$ git --status
+	
+-- github version check
+
+	$ git --version
+	
+-- github clone
+
+	$ git clone <URL>
+
+-- list of all the folders
+
+	$ ls -al
+
+-- configuration only one time step
+
+	$ git config --global user.name <username>
+	
+	$ git config --global user.email <useremail>
+	
+-- list of the configuration
+
+	$ git config --list
+	
+-- how to add the git into staging area 
+
+	$ git add <filename>
+	
+-- how to untracked the tracked
+
+	$ git rm --cached filename
+	
+-- how to restore the file from staging area to untracked 
+
+	$ git restore --staged <filename>
+	
+-- description and commit the git
+
+	$ git commit -m "My first program in python"
+	
+-- to check branch of git
+
+	$ git branch
+	
+-- now add new respository URL
+
+	$ git remote add origin <remote_repository_URL>
+	
+-- how to check git remote version
+
+	$ git remote -v
+	
+-- commit the changes to the remote repository
+
+	$ git push -u origin master
+	
+-- to change the branch to new branch
+
+	$ git checkout -b <new_branch_Name>
+	
+-- to push a file to new branch 
+	
+	$ git push -u origin <new_branch_Name>
+	
+-- remote merge the branch 
+	
+	$ git merge <branch name>
+	
+-- to hide the commit lines (++ lines) add lines in any program
+
+	$ git stash
+
+-- to list the hidden list
+
+	$ git stash list
+
+-- to undo the stash command
+
+	$ git stash apply <stash number which is in the git stash list>
+
+-- delete a branch locally in terminal
+
+	$ git branch -d <branch name>
+
+-- to clear the stash list
+
+	$ git stash clear
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
